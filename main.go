@@ -82,6 +82,8 @@ func main() {
 	// fmt.Println("encriptedSA :", encriptedSA)
 	encryptedEncodedSA := hex.EncodeToString(encriptedSA)
 	fmt.Println("encryptedEncodedSA :", encryptedEncodedSA)
+
+	PubSubTest()
 }
 
 // Keyring: my-keyring
